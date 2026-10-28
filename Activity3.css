@@ -1,0 +1,142 @@
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: #2874f0;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Navigation */
+nav {
+    background-color: #172337;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+/* Promotional Banner */
+.banner {
+    background-color: #ffe0b2;
+    text-align: center;
+    padding: 40px;
+}
+
+.banner h2 {
+    color: #e65100;
+}
+
+.banner a {
+    display: inline-block;
+    background-color: #2874f0;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    color: #2874f0;
+}
+
+/* Categories */
+.categories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.category {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Products */
+.products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Medium-sized product images */
+.product img {
+    width: 250px;
+    height: 180px;
+    object-fit: contain;
+}
+
+.product h3 {
+    color: #172337;
+}
+
+/* Ratings */
+.rating {
+    color: #388e3c;
+}
+
+/* Prices */
+.price {
+    color: #222;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price del {
+    color: gray;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* Discounts */
+.discount {
+    color: #388e3c;
+    font-weight: bold;
+}
+
+/* Shopping Button */
+button {
+    background-color: #fb641b;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e65100;
+}
+
+/* Special Offers */
+.offers {
+    background-color: #e3f2fd;
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+}
+```
