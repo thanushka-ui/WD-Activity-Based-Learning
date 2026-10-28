@@ -1,1 +1,1 @@
-# WD-Activity-Based-Learing
+# WD-Activity-Based-Learning
